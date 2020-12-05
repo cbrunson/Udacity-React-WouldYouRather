@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+}
+
+.tab-button-left {
+    border-radius: .25rem 0 0 0;
+    border: none;
+}
+
+.tab-button-right {
+    border-radius: 0 .25rem 0 0;
+    border: none;
+}

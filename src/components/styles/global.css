@@ -1,0 +1,25 @@
+.container-border {
+    /*border: solid gray 1px;*/
+    border: solid #e0e0e0 2px;
+}
+
+.container-border-bottom {
+    border-bottom: solid #e0e0e0 2px;
+}
+
+.container-border-right {
+    border-right: solid #e0e0e0 2px;
+}
+
+.non-responsive {
+    min-width: 768px;
+    justify-self: center;
+}
+
+html, body {
+    overflow: auto;
+}
+
+.container {
+    width: 768px;
+}

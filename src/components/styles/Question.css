@@ -1,0 +1,22 @@
+.question {
+    /*border: solid gray 1px;*/
+    border: solid #e0e0e0 2px;
+}
+
+.question-text {
+    text-overflow: ellipsis;
+}
+
+.question-data {
+    line-height: 2em;
+}
+
+.question-header {
+    border-bottom: solid #e0e0e0 2px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+}

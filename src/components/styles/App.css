@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-wrapper-row {
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-wrapper {
+  margin-top: 100px;
+}
+
+.test {
+  border: solid white;
+}
+
+.nav {
+  z-index: 1000;
+}
