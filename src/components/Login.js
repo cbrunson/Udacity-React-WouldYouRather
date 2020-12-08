@@ -4,7 +4,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import './styles/Login.css';
 import './styles/global.css';
-import logo from '../images/redux-logo.png';
+import logo from '../images/wouldyourather-1.png';
 import { handleSetAuthedUser } from '../actions/authedUser';
 
 class Login extends Component {
@@ -52,12 +52,12 @@ class Login extends Component {
                 <Row className='bg-light rounded-top p-2 border-bottom'>
                     <Col>
                         <h5 className='font-weight-bold'>Welcome to the Would You Rather App!</h5>
-                        <h6 className='font-weight-light'>Please sign in to continue</h6>
-                    </Col>
+{/*                         <h6 className='font-weight-light'>Please sign in to continue</h6>
+ */}                    </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <img src={logo} alt='React Logo' className='mt-5' />
+                        <img src={logo} alt='Would You Rather Logo' className='mt-5 logoImg' />
                         <h4 className='mt-5 font-weight-bold'>Sign In</h4>
                     </Col>
                 </Row>

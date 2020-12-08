@@ -19,6 +19,11 @@ class Question extends Component {
         });
     }
 
+    getTotalVotes() {
+        const question = this.props.question;
+        return question.optionOne.votes.length+question.optionTwo.votes.length;
+    }
+
     render() {
         const { question, user } = this.props;
         const { toQuestion, toAnswer } = this.state;
@@ -44,9 +49,10 @@ class Question extends Component {
                     </Col>
                     <Col>
                         <div className='question-data mb-2'>
-                            <div className='font-weight-bold'>Would you rather</div>
-                            <div className='question-text'>{question.optionOne.text}</div>
-                            <Button onClick={() => this.displayDetails()} className='mt-2'>View Poll</Button>
+{/*                             <div className='font-weight-bold'>Would you rather</div> */}
+                            <div className='question-text'>Would you rather <b>{question.optionOne.text}</b> or <b>{question.optionTwo.text}</b>?</div>
+{/*                             <div className='font-weight-bold question-count'>{this.toAnswer===true? this.getTotalVotes(): "hello"}</div>
+ */}                            <Button onClick={() => this.displayDetails()} className='mt-2'>View Poll</Button>
                         </div>
                     </Col>
                 </Row>

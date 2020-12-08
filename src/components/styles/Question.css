@@ -5,6 +5,8 @@
 
 .question-text {
     text-overflow: ellipsis;
+    line-height: 1.5em;
+    padding-bottom: 10px;
 }
 
 .question-data {
